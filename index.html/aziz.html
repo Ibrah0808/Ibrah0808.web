@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Happy BirthyDay</title>
+     
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+   padding: 0;
+   margin: 0;
+   font-family: 'bodoni Moda', 'serif', 'poppins';
+}
+body{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(AZI.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ 
+}
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.video-background video {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container{
+    perspective: 1000px;
+}
+.card{
+    width: 280px;
+    height: 260px;
+    position: absolute;
+    top: 100px;
+    left: 230px;
+    transition: 2s;
+    transform-style: preserve-3d;
+}
+.card:hover{
+    transform: rotateY(180deg);
+
+
+}
+.block{
+    position: absolute;
+    top: 100px;
+    right: 400px;
+    perspective: 800px;
+ 
+
+}
+.outside,.inside{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    text-align: center;
+    padding: 1.5rem;
+}
+.outside{
+    background-color: blanchedalmond;
+    box-shadow: inset o 5px 10px rgba(0,0,0,0.5);
+   
+}
+.outside h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: salmon;
+    margin-bottom: 30px;
+}
+.inside{
+    background-color: rgb(255, 244, 79);
+    box-shadow: inset o 5px 10px rgba(0,0,0,0.5);
+    
+}
+.inside h3{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 20px;
+}
+</style>
+    </head>
+<body>
+    <marquee behavior="" direction=""><h1 style="font-size: 50px;">HAPPY BIRTHY DAY IBRAH ALL THE BEST IN THIS NEW YEAR</h1></marquee>
+    <div class="video-background">
+        <video autoplay muted loop>
+            <source src="ibrah.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="outside">
+              <h1>Happy Birthy Day Ibrah</h1>
+              <h3>Dear Ibrah, may god bless you abundant joy on this day</h3>
+              
+
+            </div>
+            <div class="inside">
+                <img src="AZI.webp" width="180px">
+                <h3>Sending you an infinite amount of love,joy and happness</h3>
+
+            </div>
+        </div>
+        <div class="block">
+           <div class="frames frame1">
+            <img src="giphy.webp" width="300px" height="180px">
+            <p style="color: rgb(64, 226, 43);">Keep smiling, keep shining boy</p>
+           </div>
+           <div class="frames frame2">
+            <img src="AZ.webp" width="300px" height="180px">
+            <p style="color: rgb(101, 165, 42);">on this occasion bring you alot of happiness and success</p>
+
+           </div>
+           <div class="frames frame3">
+            <img src="AZIZ.webp" width="300px" height="180px">
+            <p s>may god bless you on this day and always</p>
+           </div>
+
+        </div>
+    </div>
+</body>
+</html>
